@@ -1,0 +1,45 @@
+2021-06-27 06:59:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#5" is not set; SQL statement:
+insert into TransactionHistory(transactionId,accountNumber,name,transactionType,amount)values(?,?,?,?,?) [90012-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:94)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:180)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:132)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at com.training.practice.Hibernate.write(Hibernate.java:77)
+	at com.training.practice.Application.main(Application.java:15)
+2021-06-27 07:03:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#5" is not set; SQL statement:
+insert into TransactionHistory(transactionId,accountNumber,name,transactionType,amount)values(?,?,?,?,?) [90012-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:94)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:180)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:132)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at com.training.practice.Hibernate.write(Hibernate.java:79)
+	at com.training.practice.Application.main(Application.java:15)
+2021-06-27 07:04:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#5" is not set; SQL statement:
+insert into TransactionHistory(transactionId,accountNumber,name,transactionType,amount)values(?,?,?,?,?) [90012-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:94)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:180)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:132)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)
+	at com.training.practice.Hibernate.write(Hibernate.java:79)
+	at com.training.practice.Application.main(Application.java:15)
